@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+ 
+
+}
+
+
+
+
+.banner {
+    padding: 8%;
+    background: linear-gradient(-45deg, #000000, #b400a5, #a30065, #141414);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 80vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+#foto-perfil{
+    border-radius: 100%;
+    margin-top:-6%;
+}
+
+
+.btn {
+    border: solid white 1px;
+    padding: 10px 25px;
+    color: azure;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+h2 {
+    color: white;
+    margin: 2%;
+    font-weight: bolder;
+}
+
+
+
+footer {
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    padding: 5%;
+    margin-top: 10%;
+}
+
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
